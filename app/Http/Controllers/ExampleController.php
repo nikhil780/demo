@@ -29,6 +29,8 @@ class ExampleController extends Controller
         //print_r('21');
 
         echo json_encode($data_arr);
+        
+        echo json_encode($data_arr);
 
         //return response()->json($users);
     }
